@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Bryon Verdone',
+    subtitle: 'IT Professional',
+    description: 'My personal blog site',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -64,42 +64,38 @@ const siteConfig: SiteConfig = {
         }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+        // {
+        //     text: 'Terms',
+        //      href: '/terms'
+        // },
+        // {
+        //     text: 'Download theme',
+        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        // }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Linkedin',
+            href: 'https://www.linkedin.com/in/bryon-verdone/'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'GitHub',
+            href: 'https://github.com/bryonverdone'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Thanks for stopping by',
+        text: "I'm **Bryon**, an IT professional with the ability to breakdown problems and communicate effectively to both technical and non technical individuals. When talking with individuals I’m able to ask the right questions to better understand what they need and how to implement technology into their current workflows to increase their performance. I have experience in many different IT domains including end user support, virtualization and network troubleshooting. I’ve worked with many different enterprise platforms such as Microsoft 365, Jamf, and Google workspaces. On these platforms I’ve managed and created various policies to configure and promote efficient workflows for end users and secure and maintain systems.",
         image: {
-            src: '/hero.jpeg',
+            src: '/portfolio-small.JPG',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
@@ -109,11 +105,7 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+
     postsPerPage: 8,
     projectsPerPage: 8
 };
